@@ -1,0 +1,89 @@
+/* General styles for the application */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #FFFFF0; /* Light cream background */
+}
+
+
+.container {
+    text-align: center;
+    background-color: #fff2f2;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1000px;
+    margin-top: 30px;
+}
+
+/* Title styling */
+h2 {
+    font-size: 34px;
+    color: #333;
+    margin-bottom: 0px;
+}
+
+/* Button styles */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Table styling */
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.student-table th, .student-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.student-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.student-table tbody tr {
+    background-color: #f9f9f9;
+}
+
+.student-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Table Action buttons */
+.student-table .btn {
+    font-size: 14px;
+    padding: 6px 12px;
+    margin: 2px;
+}
+
+.student-table .btn:hover {
+    background-color: #3e8e41;
+}
+#noStudentsMessage {
+    display: none;
+    margin-top: 20px;
+}

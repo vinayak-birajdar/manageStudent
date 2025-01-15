@@ -1,0 +1,70 @@
+/* general styles for the application.. */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding-top: 20px;
+    background-color: #FFFFF0;
+}
+
+/* Container for the home page */
+.container {
+    text-align: center;
+    background-color: #F8F9FA;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+/* title style */
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* seearch Section */
+.search-section {
+    margin-bottom: 30px;
+}
+
+.search-input {
+    width: calc(100% - 110px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-section button {
+    margin-top: 5px;
+}
+
+/* button styles */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Button Section */
+.button-section .btn {
+    margin: 10px 5px; /* Space between the buttons */
+}
